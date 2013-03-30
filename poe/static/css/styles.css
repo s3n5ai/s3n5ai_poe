@@ -1,0 +1,84 @@
+body{
+	background-color: #CCFFFF;
+}
+h1, h2, h3, h4, h5, h6, p, td, th{
+	color: #000;
+	font-family:"Arial", Arial, sans-serif;
+	font-size: 14pt;
+}
+
+table{
+	padding: 0px;
+}
+table td{
+	padding: 0 px 0 px;
+	border-top: 1px solid #8FBCDB;
+}
+table tr{
+	background-color: #FFFFCC;
+	border: 1px solid black;
+}
+
+table tr:hover{
+	background-color: #DDD;
+	cursor: hand;
+}
+
+
+table th{
+	background-color: #FFF;
+}
+
+.searchbox{
+	padding: 5px;
+	font-size: 16px;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+#middle-search{
+	font-size: 16;
+	margin: 0 auto 0 auto;
+	display: block;
+	width: 500px;
+}
+
+#prefixes table{
+	float: left;
+	border: 1px solid #8FBCDB;
+	background-color: #FFF;
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+
+#suffixes{
+	margin: 0 0 0 50px;
+	float: right;
+}
+
+#suffixes table{
+	background-color: #FFF;
+	border: 1px solid #8FBCDB;
+}
+
+#implicit{
+	clear: left;
+	width: 50%;
+}
+
+#implicit table{
+	border: 1px solid #8FBCDB;
+	background-color: #FFF;
+	width: 100%;
+}
+.accordion{
+	background-color: #FFF;
+}
+
+tr .odd{
+	background-color: #CCC;
+}
