@@ -3,7 +3,7 @@ from poe_util import *
 class MySQL:
   conn = MySQLdb.connect(host = "127.0.0.1",
                          user = "chode",
-                         passwd = "licker",
+                         passwd = "XXX",
                          db="chode_poe")
 
   cursor = conn.cursor()
